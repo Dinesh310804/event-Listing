@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help and Support</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #161616; /* Dark background */
+            color: #fff; /* Light text color */
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto 20px auto;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent dark background */
+            border-radius: 30px;
+            box-shadow: 0 2px 4px honeydew;
+            box-shadow: 1px 1px 25px -2px  honeydew;/* White box shadow for depth */
+        }
+
+        h1 {
+            text-align: center;
+            color: #FFC107; /* Amber heading color */
+            margin-bottom: 50px;
+            font-size: 42px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: #1C1C1C; /* Dark gray background for sections */
+            border-radius: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .section:hover {
+            transform: translateY(-5px); /* Move section up slightly on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increase shadow on hover */
+            box-shadow: 0 2px 4px honeydew;
+            box-shadow: 1px 1px 25px -2px  honeydew;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #BBB; 
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2 {
+            font-size: 35px;
+            font-weight: 500;
+            color:rgb(123, 104, 250);
+            margin-bottom: 10px;
+        }
+
+        .contact-info ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        .faq {
+            margin-bottom: 20px;
+        }
+
+        .faq h2 {
+            font-size: 35px;
+            font-weight: 500;
+            color:rgb(123, 104, 250);
+        }
+
+        .faq ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .faq li {
+            margin-bottom: 10px;
+        }
+        .feedback {
+            margin-bottom: 20px;
+        }
+
+        .feedback h2 {
+            font-size: 35px;
+            font-weight: 500;
+            color:rgb(123, 104, 250);
+        }
+
+        .feedback ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .feedback li {
+            margin-bottom: 10px;
+        }
+
+        .documentation h2{
+            font-size: 35px;
+            font-weight: 500;
+            color:rgb(123, 104, 250);
+        }
+
+        .documentation h3{
+            font-size: 26px;
+            color: rgb(118, 118, 170);
+        }
+
+        .documentation ul {
+            padding: 0;
+            font-size: 20px;
+            margin-left: 20px;
+            
+        }
+        .documentation ul li{
+            color: #BBB;
+        }
+
+        .question{
+            position: relative;
+            padding: 10px 0 10px 10px;
+            background-color: #444;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            width: 61%;
+            cursor: pointer;
+        }
+        .answer{
+            margin-left: 30px;
+            margin-bottom: 20px;
+            width: 59%;
+        }
+        hr{
+            width:100%;
+        }
+
+        .arrow-icon {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            color: #fff;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Help and Support</h1>
+
+        <div class="section contact-info">
+            
+            <p>If you need assistance or have any questions, feel free to contact our support team. We're here to help! You can reach out to us via:</p>
+            <ul>
+                <li> <i class="fas fa-envelope"></i> <strong>Email:</strong> support@eventpro.com</li>
+                <li> <i class="fas fa-phone"></i> <strong>Phone:</strong> +91 (555) 123-4567</li>
+                <li> <i class="fas fa-comments"></i> <strong>24/7 Chat Support:</strong> Available on our website</li>
+            </ul>
+        </div>
+
+        <div class="section faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="Q">
+                <div class="question"><strong>1.</strong> How do I book an event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">You can book an event by filling out the booking form on our website or by contacting our support team.<hr></div>
+                
+                <div class="question"><strong>2.</strong> What payment methods do you accept? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">We accept credit cards, debit cards, PayPal, and bank transfers.<hr></div>
+                
+                <div class="question"><strong>3.</strong> Can I cancel or reschedule my event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">Yes, you can cancel or reschedule your event. Please contact our support team for assistance.<hr></div>
+                
+                <div class="question"><strong>4.</strong> How can I access the recordings of the event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">Recordings of the event will be made available on our website after the event concludes. You can log in to your account to access them. <hr></div>
+        
+                <div class="question"><strong>5.</strong> Is there a dress code for the event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">The dress code for the event is casual. However, for formal events, we may specify a dress code in the event details. <hr></div>
+        
+                <div class="question"><strong>6.</strong> Can I bring guests to the event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">Some events allow guests, while others may have limitations. Please check the event details or contact our support team for more information.<hr></div>
+        
+                <div class="question"><strong>8.</strong> How do I check-in at the event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">You can usually check-in at the event venue using your ticket confirmation email or a valid ID. Some events may require you to present a printed ticket or use a mobile app for check-in.<hr></div>
+                
+                <div class="question"><strong>9.</strong> What should I do if I encounter technical difficulties during the event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">If you experience technical issues, please notify event staff or visit the technical support desk for assistance. We strive to resolve any technical problems promptly to ensure a smooth event experience for all attendees. <hr></div>
+                
+                <div class="question"><strong>10.</strong> Are food and beverages provided at the event? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">Food and beverage options vary depending on the event type and organizer. Some events may offer complimentary refreshments, while others may have food vendors available for purchase. Please check the event details for information about catering.<hr></div>
+                
+                <div class="question"><strong>11.</strong> Can I request special accommodations for accessibility needs? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">Yes, we strive to accommodate attendees with accessibility needs. Please contact our support team in advance to request special accommodations such as wheelchair access, sign language interpretation, or audio description services.<hr></div>
+                
+                <div class="question"><strong>12.</strong> Are there discounts available for students or seniors? <i class="fas fa-chevron-down arrow-icon"></i></div>
+                <div class="answer" style="display:none;">Some events offer discounted tickets for students, seniors, or members of certain organizations. Please check the event details or contact our support team to inquire about available discounts and eligibility criteria.<hr></div>
+            
+             
+                
+            </div>
+        </div>
+        <div class="section documentation">
+            <h2>Documentation</h2>
+            <p>Here you can find helpful documentation for troubleshooting common issues and understanding our features.</p>
+            <h3>Troubleshooting Tips</h3>
+            <p>If you encounter any problems while using our platform, here are some troubleshooting tips:</p>
+            <ul>
+                <li>Make sure you are using the latest version of your web browser.</li>
+                <li>Clear your browser cache and cookies.</li>
+                <li>Check your internet connection.</li>
+              
+            </ul>
+            <h3>Feature Explanation</h3>
+            <p>Our platform offers a variety of features to enhance your experience. Here's a brief explanation of some key features:</p>
+            <ul>
+                <li><strong>Event Booking:</strong> Easily book events through our website or contact our support team for assistance.</li>
+                <li><strong>Payment Methods:</strong> We accept various payment methods, including credit cards, debit cards, PayPal, and bank transfers.</li>
+                <li><strong>Event Recordings:</strong> Access recordings of past events through your account after the event concludes.</li>
+              
+            </ul>
+        </div>
+        
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script>
+      
+        document.addEventListener("DOMContentLoaded", function() {
+            let questions = document.querySelectorAll('.faq .question');
+
+            questions.forEach(function(question) {
+                question.addEventListener('click', function() {
+                    let answer = question.nextElementSibling;
+                    let arrowIcon = question.querySelector('.arrow-icon');
+                    if (answer.style.display === 'none') {
+                        answer.style.display = 'block';
+                        arrowIcon.classList.remove('fa-chevron-down');
+                        arrowIcon.classList.add('fa-chevron-up');
+                    } else {
+                        answer.style.display = 'none';
+                        arrowIcon.classList.remove('fa-chevron-up');
+                        arrowIcon.classList.add('fa-chevron-down');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
